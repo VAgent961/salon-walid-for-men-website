@@ -14,10 +14,6 @@ export default function HomePage() {
       <section className="relative min-h-[85vh] flex items-center py-20">
         <div className="max-w-7xl mx-auto px-5 md:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7 flex flex-col items-start">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-secondary/10 rounded-full mb-6">
-              <span className="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
-              <span className="font-body text-xs font-bold text-secondary uppercase tracking-widest">Open for precision cuts</span>
-            </div>
             <h1 className="font-heading text-5xl md:text-7xl font-bold tracking-tight text-primary leading-[1.1] mb-6">
               Modern styles and precision cuts in Jdeideh
             </h1>
@@ -25,14 +21,14 @@ export default function HomePage() {
               Expert grooming for men located in the Souq, Boqaata. We specialize in clean fades and detailed head designs.
             </p>
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto">
-              <Link 
-                href="/contact" 
+              <Link
+                href="/contact"
                 className="bg-primary text-white px-8 py-4 rounded-md font-body font-bold text-center hover:bg-primary/90 transition-all active:scale-[0.98] shadow-lg shadow-primary/10"
               >
                 Book an appointment
               </Link>
-              <a 
-                href="https://www.google.com/maps/place/?q=place_id:ChIJpYYG_-UhHxUROs_cG7Ba5As" 
+              <a
+                href="https://www.google.com/maps/place/?q=place_id:ChIJpYYG_-UhHxUROs_cG7Ba5As"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-primary border border-outline-variant px-8 py-4 rounded-md font-body font-bold text-center hover:bg-surface transition-all active:scale-[0.98]"
@@ -49,10 +45,10 @@ export default function HomePage() {
           </div>
           <div className="lg:col-span-5">
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
-              <img 
-                alt="Modern barbershop chair" 
-                className="w-full h-full object-cover" 
-                src="/images/stitch-2.jpg" 
+              <img
+                alt="Barbershop chair"
+                className="w-full h-full object-cover"
+                src="/images/stitch-2.jpg"
                 loading="eager"
               />
             </div>
@@ -72,8 +68,8 @@ export default function HomePage() {
                 We specialize in modern men's styles, clean fades, and detailed head designs.
               </p>
             </div>
-            <Link 
-              href="/services" 
+            <Link
+              href="/services"
               className="inline-flex items-center gap-2 text-primary font-bold hover:text-secondary transition-colors group"
             >
               View all services
@@ -114,8 +110,8 @@ export default function HomePage() {
               <p className="text-lg opacity-70 mb-10">
                 We take pride in every cut. Read why our customers keep coming back to Salon Walid.
               </p>
-              <a 
-                href="https://www.google.com/maps/place/?q=place_id:ChIJpYYG_-UhHxUROs_cG7Ba5As" 
+              <a
+                href="https://www.google.com/maps/place/?q=place_id:ChIJpYYG_-UhHxUROs_cG7Ba5As"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-white text-primary px-6 py-3 rounded-md font-bold hover:bg-surface transition-colors"
@@ -158,7 +154,7 @@ export default function HomePage() {
               <p className="font-body text-lg text-muted mb-10 leading-relaxed">
                 Find us in the Souq, Jdeideh, Boqaata. We are open six days a week to serve you with the best grooming experience in the Chouf area.
               </p>
-              
+
               <div className="bg-surface p-8 rounded-2xl border border-outline-variant/30 mb-10">
                 <h4 className="font-heading text-xl font-bold text-primary mb-6 flex items-center gap-3">
                   <span className="material-symbols-outlined text-secondary">schedule</span>
@@ -166,12 +162,12 @@ export default function HomePage() {
                 </h4>
                 <div className="space-y-4 tabular-nums">
                   <div className="flex justify-between items-center pb-3 border-b border-outline-variant/30">
-                    <span className="font-medium">Tuesday to Saturday</span>
-                    <span className="text-muted">8:30 AM – 8:00 PM</span>
+                    <span className="font-medium">Tuesday, Saturday</span>
+                    <span className="text-muted">8:30 AM. 8:00 PM</span>
                   </div>
                   <div className="flex justify-between items-center pb-3 border-b border-outline-variant/30">
                     <span className="font-medium">Sunday</span>
-                    <span className="text-muted">8:30 AM – 4:00 PM</span>
+                    <span className="text-muted">8:30 AM. 4:00 PM</span>
                   </div>
                   <div className="flex justify-between items-center text-secondary font-bold">
                     <span>Monday</span>
@@ -180,8 +176,8 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <a 
-                href="https://www.google.com/maps/place/?q=place_id:ChIJpYYG_-UhHxUROs_cG7Ba5As" 
+              <a
+                href="https://www.google.com/maps/place/?q=place_id:ChIJpYYG_-UhHxUROs_cG7Ba5As"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 bg-primary text-white px-8 py-4 rounded-md font-bold hover:bg-primary/90 transition-all active:scale-[0.98]"
@@ -191,7 +187,7 @@ export default function HomePage() {
               </a>
             </div>
             <div className="h-[500px] rounded-3xl overflow-hidden shadow-xl border border-outline-variant/30">
-              <iframe 
+              <iframe
                 src="https://www.google.com/maps?q=33.6698715,35.599888799999995&output=embed"
                 width="100%"
                 height="100%"
@@ -210,8 +206,8 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6">Ready for a fresh look?</h2>
           <p className="text-lg opacity-90 mb-10">Book your appointment today and experience the precision of Salon Walid.</p>
-          <Link 
-            href="/contact" 
+          <Link
+            href="/contact"
             className="inline-block bg-white text-secondary px-10 py-4 rounded-md font-bold text-lg hover:bg-surface transition-all active:scale-[0.98] shadow-xl"
           >
             Book an appointment

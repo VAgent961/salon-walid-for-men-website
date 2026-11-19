@@ -11,9 +11,9 @@ export default function ContactPage() {
     <div className="flex flex-col w-full">
       <section className="py-20 bg-primary text-white">
         <div className="max-w-7xl mx-auto px-5 md:px-8">
-          <h1 className="font-heading text-5xl md:text-7xl font-bold tracking-tight mb-6">Book your appointment</h1>
+          <h1 className="font-heading text-5xl md:text-7xl font-bold tracking-tight mb-6">Get in touch</h1>
           <p className="text-lg md:text-xl opacity-70 max-w-2xl">
-            Ready for your next cut? Use the form below or contact us directly via WhatsApp or phone.
+            Ready for your next cut? Book an appointment or contact us with any questions.
           </p>
         </div>
       </section>
@@ -23,7 +23,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
             <div className="lg:col-span-7">
               <div className="bg-white p-8 md:p-12 rounded-3xl border border-outline-variant/30 shadow-xl">
-                <h2 className="font-heading text-3xl font-bold text-primary mb-8">Appointment Request</h2>
+                <h2 className="font-heading text-3xl font-bold text-primary mb-8">Book an appointment</h2>
                 <ContactForm />
               </div>
             </div>
@@ -79,7 +79,7 @@ export default function ContactPage() {
 
               <div className="relative aspect-square rounded-3xl overflow-hidden shadow-xl border border-outline-variant/30">
                 <img 
-                  alt="Salon interior" 
+                  alt="Barbershop interior" 
                   className="w-full h-full object-cover" 
                   src="/images/stitch-6.jpg" 
                 />
